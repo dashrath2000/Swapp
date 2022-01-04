@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.test21"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+13-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:5:5-72
+13-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:5:22-69
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:6:5-74
+14-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:6:22-71
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.93.0] C:\Users\hp\.gradle\caches\transforms-3\8cf55bdce16a002612f05f30a64a017a\transformed\jetified-flipper-0.93.0\AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.93.0] C:\Users\hp\.gradle\caches\transforms-3\8cf55bdce16a002612f05f30a64a017a\transformed\jetified-flipper-0.93.0\AndroidManifest.xml:16:22-73
+16    <uses-permission android:name="com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER" />
+16-->[:react-native-fingerprint-scanner] F:\Swapp_News\new\swapp-mobile-app\node_modules\react-native-fingerprint-scanner\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-91
+16-->[:react-native-fingerprint-scanner] F:\Swapp_News\new\swapp-mobile-app\node_modules\react-native-fingerprint-scanner\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-88
+17    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+17-->[:react-native-fingerprint-scanner] F:\Swapp_News\new\swapp-mobile-app\node_modules\react-native-fingerprint-scanner\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-117
+17-->[:react-native-fingerprint-scanner] F:\Swapp_News\new\swapp-mobile-app\node_modules\react-native-fingerprint-scanner\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-114
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[:react-native-community_netinfo] F:\Swapp_News\new\swapp-mobile-app\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+18-->[:react-native-community_netinfo] F:\Swapp_News\new\swapp-mobile-app\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\hp\.gradle\caches\transforms-3\d79f26234d7ac71a1e5300d5e788e439\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+19-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\hp\.gradle\caches\transforms-3\d79f26234d7ac71a1e5300d5e788e439\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:22-79
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\hp\.gradle\caches\transforms-3\88e2a49dcbb25c5edb3bf68dcf66b6d8\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:5-110
+20-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\hp\.gradle\caches\transforms-3\88e2a49dcbb25c5edb3bf68dcf66b6d8\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:22-107
+21
+22    <application
+22-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:7:5-25:19
+23        android:name="com.test21.MainApplication"
+23-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:8:7-38
+24        android:allowBackup="false"
+24-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:12:7-34
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.6.0] C:\Users\hp\.gradle\caches\transforms-3\d9b71328e8ba86dc125344804cb6eb44\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:10:7-41
+28        android:label="@string/app_name"
+28-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:9:7-39
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:11:7-52
+30        android:theme="@style/AppTheme"
+30-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:13:7-38
+31        android:usesCleartextTraffic="true" >
+31-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\debug\AndroidManifest.xml:8:9-44
+32        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+32-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\debug\AndroidManifest.xml:11:9-86
+32-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\debug\AndroidManifest.xml:11:19-83
+33        <activity
+33-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:14:7-24:18
+34            android:name="com.test21.MainActivity"
+34-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:15:9-37
+35            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+35-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:17:9-86
+36            android:label="@string/app_name"
+36-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:16:9-41
+37            android:launchMode="singleTask"
+37-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:18:9-40
+38            android:windowSoftInputMode="adjustResize" >
+38-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:19:9-51
+39            <intent-filter>
+39-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:20:9-23:25
+40                <action android:name="android.intent.action.MAIN" />
+40-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:21:13-65
+40-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:21:21-62
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:22:13-73
+42-->F:\Swapp_News\new\swapp-mobile-app\android\app\src\main\AndroidManifest.xml:22:23-70
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hp\.gradle\caches\transforms-3\c099f34bb597d03b4b670af755f47f98\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+46            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+46-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hp\.gradle\caches\transforms-3\c099f34bb597d03b4b670af755f47f98\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+47            android:exported="false"
+47-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hp\.gradle\caches\transforms-3\c099f34bb597d03b4b670af755f47f98\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+48-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hp\.gradle\caches\transforms-3\c099f34bb597d03b4b670af755f47f98\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+49
+50        <meta-data
+50-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hp\.gradle\caches\transforms-3\d2aab5a9146bf1ef884137d70b855134\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+51            android:name="com.google.android.gms.version"
+51-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hp\.gradle\caches\transforms-3\d2aab5a9146bf1ef884137d70b855134\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+52            android:value="@integer/google_play_services_version" />
+52-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hp\.gradle\caches\transforms-3\d2aab5a9146bf1ef884137d70b855134\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+53    </application>
+54
+55</manifest>
